@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra seu Rank!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="letras">Calculadora de Ranking</h1>
+        <div id="ranks">
+            <img src="Rank Bronze.gif">
+            <img src="Rank Prata.gif">
+            <img src="Rank Ouro.gif">
+        </div>
+        <div id="ranks">
+            <img src="Rank Safira.gif">
+            <img src="Rank Diamante.gif">
+        </div>
+    </header>
+    <h2 class="letras">Insira a quantidade de vitórias e derrotas para calcular seu <b>RANK</b>:</h2>
+    <div class="campo">
+        <span id="vic">VITÓRIAS:</span>
+        <input id="vitorias" type="number">
+        <span id="der">DERROTAS:</span>
+        <input id="derrotas" type="number">
+        <button onclick="getRank()">CALCULAR</button>
+    </div>
+    <span id="resultado"></span>
+    <script src="script.js"></script>
+</body>
+</html>
